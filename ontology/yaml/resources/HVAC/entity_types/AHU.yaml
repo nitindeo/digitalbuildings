@@ -4612,3 +4612,17 @@ AHU_DFSS_DX2ZC_ECONZ_CO2C_DSP_RCKTM2X_HTZC_CC2XM_RTM_DTM:
   - DTM
   opt_uses:
   - condensing_fan_current_sensor
+
+  AHU_SSPC_CHWDPSC_CHWPVM_RTM_VOCC_MOAFC_FDSTD:
+  description: "Single zone AHU. with CHW Dew Point control Variable Speed Fan and FD monitoring"
+  is_canonical: true
+  implements:
+  - AHU
+  - SSPC
+  - CHWDPSC
+  - CHWPVM
+  - RTM
+  - VOCC
+  - MOAFC
+  - FDSTD
+  
